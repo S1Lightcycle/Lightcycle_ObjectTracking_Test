@@ -13,7 +13,6 @@ public class ObjectTracking : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		background = GameObject.Find("Quad");
 		_cap = new CvCapture (0);
 		_capImage = _cap.QueryFrame();
 		_tex = new Texture2D(0, 0, TextureFormat.RGB24, false);
@@ -35,5 +34,6 @@ public class ObjectTracking : MonoBehaviour {
 		Marshal.Copy(rawPtr, raw, 0, raw.Length);
 		_tex.LoadRawTextureData(raw);
 		_tex.Apply();
+		background.renderer.sharedMaterial.mainTexture = _tex;
 	}
 }
