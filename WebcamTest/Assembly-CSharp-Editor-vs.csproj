@@ -39,10 +39,10 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>K:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>K:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
@@ -54,16 +54,16 @@
      <None Include="Assets\Plugins\Google.ProtocolBuffers.xml" />
      <None Include="Assets\Resources\metaio\UnlitTexture.shader" />
  <Reference Include="OpenCvSharp">
- <HintPath>I:/Documents/Lightcycle_ObjectTracking_Test/WebcamTest/Assets/Scripts/OpenCvSharp.dll</HintPath>
+ <HintPath>D:/Dokumente/S1Lightcycle/Lightcycle_ObjectTracking_Test/WebcamTest/Assets/Scripts/OpenCvSharp.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
- <HintPath>K:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ <HintPath>D:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>I:/Documents/Lightcycle_ObjectTracking_Test/WebcamTest/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>D:/Dokumente/S1Lightcycle/Lightcycle_ObjectTracking_Test/WebcamTest/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers.Serialization">
- <HintPath>I:/Documents/Lightcycle_ObjectTracking_Test/WebcamTest/Assets/Plugins/Google.ProtocolBuffers.Serialization.dll</HintPath>
+ <HintPath>D:/Dokumente/S1Lightcycle/Lightcycle_ObjectTracking_Test/WebcamTest/Assets/Plugins/Google.ProtocolBuffers.Serialization.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
